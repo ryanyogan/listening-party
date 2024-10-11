@@ -1,0 +1,21 @@
+Listning Party Real Time App -- Awwdio
+
+
+- User needs to be able to create a listening party
+--- Postcast episode
+--- Time to go live
+--- Links to the media file
+
+- Listening party starts
+--- Users can chat
+--- Podcast episode plays in real (played on the server)
+--- Users may react in real time
+--- Show the live listening parties on the dashboard page
+
+
+Models:
+- Listening Party
+- Episode
+- Podcast
+- Reactions
+- Messages
