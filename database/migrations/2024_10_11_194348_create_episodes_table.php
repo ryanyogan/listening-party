@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('episodes', function (Blueprint $table) {
             $table->id();
-            $table->foreignId("podcast_id")->constrained()->cascadeOnUpdate();
-            $table->string("name");
+            $table->foreignId("podcast_id")->nullable()->constrained()->cascadeOnUpdate();
+            $table->string("title")->nullable();
             $table->string("media_url");
             $table->timestamps();
         });
