@@ -19,7 +19,7 @@
 </head>
 
 <body class="antialiased font-sans bg-emerald-50">
-    <h1 class="text-center mt-8 text-3xl font-cursive text-slate-800">🎧Awwdio</h1>
+    <h1 class="text-center mt-8 text-3xl font-cursive text-slate-800">🎧 Awwdio</h1>
     <livewire:dashboard />
 </body>
 
